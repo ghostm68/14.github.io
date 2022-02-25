@@ -232,7 +232,7 @@ https://templatemo.com/tm-505-stacked
                       <div class="row">
                         <div class="col-md-8">
                           <div class="contat-form">
-                            <form id="contact" action="" method="post">
+                            <form id="contact" action="MAILTO:nova-x@inkrealm.info" method="post">
                               <fieldset>
                                 <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
                               </fieldset>
@@ -243,6 +243,8 @@ https://templatemo.com/tm-505-stacked
                                 <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required=""></textarea>
                               </fieldset>
                               <fieldset>
+				       <input type="button" value="Clear" onclick="document.getElementById('contact-form').reset()"
+            />
                                 <button type="submit" id="form-submit" class="btn">Shoot your shot</button>
                               </fieldset>
                             </form>
